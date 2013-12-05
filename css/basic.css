@@ -1,1 +1,137 @@
-/* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+#body {
+	background-color: #FFF;
+	font-family: Verdana, Times, sans-serif;
+	}
+
+p	{
+	font-family: Verdana, Times, sans-serif;
+	font-size:75%;
+	color: #51473d;
+	line-height:150%;
+	text-align: left;
+
+	}
+
+h1 {
+	color:#51473d;
+	font-size:150%;
+}
+
+h2{
+	color:#51473d;
+	font-size: 100%;
+}
+
+
+ul {
+	color:#51473d;
+	font-family: Verdana, sans-serif;
+	list-style: circle;
+	font-size:75%;
+}
+
+a {
+color:#51473d}
+
+#container {
+	border:1px solid;
+	margin-top:25px;
+	margin-left:auto;
+	margin-right:auto;
+	max-width:960px;
+	}
+
+#topbar {
+	border:1px solid;
+	margin:10px;
+	padding:10px;
+	text-align:right;
+	color:#eae7d2;
+	font-style:italic;
+	background-color:#51473d;
+	background-image:url(../css/pics/coffey.jpg);
+	background-repeat:no-repeat;
+	background-position:center;
+	height:350px;
+	background-size:900px;
+	}
+
+#menu {
+	border:1px solid;
+	margin:10px;
+	padding:0px;
+	text-transform:capitalize; /*Gör första bokstäven stor*/
+	font-family: Verdana, Times, sans-serif;
+	}
+	
+
+#menu ul {
+	
+	margin:0px;
+	padding:0px;
+	text-align:left;
+	}
+	
+
+#menu li {
+	display: inline;
+	list-style-type: none;
+	padding:10px;
+	margin:10px;
+	}
+
+#menu a{
+	color:#51473d;
+	text-decoration: none;
+	}
+
+
+#menu a:hover{
+	color:#99e128;
+	}
+	
+
+#content {
+	margin:10px;
+	padding:10px;
+	font-family:Verdana, Times, sans-serif;
+	overflow:auto;
+	background-color:#eae7d2;
+	height:100%;
+	}
+
+#maincontent img {
+	float:left;
+	max-width:33%;
+	padding:10px 10px 10px 10px;
+	}
+#maincontent {
+   float:left;
+   width:500px;
+   padding-right:10px;
+    
+}
+#subcontent {
+    float:right;
+    margin:10px;
+    padding-top:10px;
+    width:300px;
+    border-left:dashed #51473d;
+    padding-left:20px;
+    padding-right:20px;
+    
+}
+
+#bottomcontent {
+	margin:0;
+	padding:0;
+	text-align:left;
+	bottom:0;
+	width:910px;
+	height:10px;
+	background-color:#eae7d2;
+	color:#51473d;
+	font-style:italic;
+	font-size:8pt;
+	}
+	
