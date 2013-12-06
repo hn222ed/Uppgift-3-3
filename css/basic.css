@@ -104,6 +104,10 @@ color:#51473d}
     color:#51473d;
 
 }
+#menu .active a {
+    color:#51473d
+
+}
 
 #menu a{
 	color:#eae7d2;
@@ -114,10 +118,6 @@ color:#51473d}
 	background-color:#9c9084;
 	}
 	
-#menu ul li a:active, li a.active {
-    color:#51473d;
-    
-}
 
 a[href='#maincontent']
 { display: none }
